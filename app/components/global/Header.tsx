@@ -13,6 +13,8 @@ export default function Header() {
   const {layout} = useRootLoaderData();
   const {menuLinks} = layout || {};
 
+  // const allRootData = useRootLoaderData();
+  // console.log('layout', allRootData)
   return (
     <header
       className={clsx(
